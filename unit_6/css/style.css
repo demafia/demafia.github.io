@@ -1,0 +1,97 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway');
+
+body{
+	background-color: #d9d9d9;
+
+}
+
+header {
+    background-color: light grey;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: grey;
+    text-align: center;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#one {
+    background-color: white;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#two {
+	background-color: black;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+#left {
+    background-color: grey;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: grey;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer{
+    background-color: light grey;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+
+
+h1{
+	color: #999999;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 4px;
+}
+
+#slogan{
+	font-style: italic;
+	text-align: center;
+}
+
+
+h3{
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+	margin: 2em;
+
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
