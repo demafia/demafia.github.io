@@ -1,0 +1,120 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway');
+
+body{
+	background-color: #d9d9d9;
+    margin: 0px;
+
+}
+
+header {
+    background-color: lightgrey;
+    border: 0px black solid;
+    padding: 10px;
+}
+
+nav {
+    background-color: darkgrey;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    margin: 0px;
+}
+
+#hero {
+    margin: 0px;
+}
+
+#two {
+	background-color: lightgrey;
+}
+
+
+#left {
+    background-color: lightgrey;
+    padding: 10px;
+    float: left;
+    width: 30%;
+    }
+
+#right {
+    background-color: white;
+    padding: 10px;
+    float: right;   
+    width: 62%;
+    
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer{
+    background-color: darkgrey;
+    border: 0px black solid;
+    padding: 10px;
+}
+
+
+h1{
+	color: #999999;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 4px;
+}
+
+#slogan{
+	font-style: italic;
+	text-align: center;
+}
+
+#footertext{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+h3{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+   #left {
+    background-color: lightgrey;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+    #right {
+    background-color: white;
+    padding: 10px;   
+    width: 100%;
+}
+
+
+}
+  
